@@ -72,4 +72,16 @@
       </plugins>
     </pluginManagement>
   </build>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-7REH9NF-releases</name>
+        <url>http://localhost:8082/artifactory/basic1</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-7REH9NF-snapshots</name>
+        <url>http://localhost:8081/artifactory/basic2</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
